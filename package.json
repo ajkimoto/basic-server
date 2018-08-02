@@ -1,0 +1,28 @@
+{
+  "name": "demo-server",
+  "version": "1.0.0",
+  "description": "Demo/Challenge Server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "supervisor -RV -W . ./lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.3.0",
+    "mysql2": "^1.6.0",
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.0",
+    "supervisor": "^0.12.0",
+    "uuid": "^3.3.2"
+  },
+  "author": "Andrew Kimoto",
+  "license": "ISC"
+}

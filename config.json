@@ -1,0 +1,8 @@
+{
+  "host": "rds-host-goes-here",
+  "port": 3306,
+  "database": "rds-database-goes-here",
+  "username": "rds-username-goes-here",
+  "password": "rds-password-goes-here",
+  "secret": "jwt-secret-goes-here"
+}
