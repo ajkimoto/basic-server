@@ -14,13 +14,13 @@ user id to the req object.
 
 API Errors is by a custom error handler method
 
-###API
+### API
 
 Api method user JSON for CRUD operations
 
 #### Update GeoLocation
 
-POST /api/itech/location
+```POST /api/itech/location```
 
 Updates the geo location of a user.  Returns 'OK' if successful
 
@@ -30,7 +30,7 @@ longitude) properties
 
 ### Get Users
 
-GET /api/itech/supply
+```GET /api/itech/supply```
 
 Gets users near given geo location
 
