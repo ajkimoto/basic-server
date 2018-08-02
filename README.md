@@ -3,7 +3,7 @@
 __This is a basic node server using Express and Sequelize and is designed to work
 with an Amazon RDS MySQL database__
 
-###Overview
+### Overview
 This server utilizes JSON web tokens.  At this time the authentication is stubbed
 and utilizes a dummy user object that would in reality be returned to the server
 from a database query.  The id is then passed (along with a secret string)to the
